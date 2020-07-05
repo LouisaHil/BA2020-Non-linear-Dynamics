@@ -2,7 +2,7 @@
 %% code for the instanteous streamlines at time t=0 
 alpha=0.005;
 title('The streamlines of the velocity field, Okubo Weiss region and Kam curves for t=0 and alpha=0.005')
-xspan = -5:0.5:5; yspan = -5:0.5:5;
+xspan = -10:1:10; yspan = -10:1:10;
 [x,y] = meshgrid(xspan,yspan);
 startx=x;
 starty=y;
