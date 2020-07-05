@@ -79,8 +79,8 @@ title('Points in direction of stable(red) and unstable(black) Eigenvectors')
 
 Nk=length(k)
 Nx=length(x0)
-tspan=[0 pi/3] %forward in time
-tspanb=[pi/3 0]; %backward in time 
+tspan=[0 pi/2] %forward in time
+tspanb=[pi/2 0]; %backward in time 
 for i=1:Nk 
 y0f=coeffS.*x0+k(i);
 y0b=-coeffU.*x0+k(i);
