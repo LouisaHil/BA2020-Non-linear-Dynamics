@@ -78,7 +78,7 @@ function dxdt=integrator(t,x)
 
  end
  function Q=Q(x,y)
-alpha=0.1;
+alpha=0.005;
 a=4*alpha*(x.^3)-12*alpha*x.*(y.^2);
 b=0.5-12*alpha*(x.^2).*y+4*alpha*y.^3;
 c=1.5-12*alpha*y.*x.^2+4*alpha*y.^3;
